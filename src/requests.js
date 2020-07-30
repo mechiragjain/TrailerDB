@@ -13,6 +13,9 @@ const requests = {
   fetchThriller:`/discover/movie?api_key=${API_KEY}&with_genres=53`,
   fetchTVMovie:`/discover/movie?api_key=${API_KEY}&with_genres=10770`,
   fetchScienceFiction:`/discover/movie?api_key=${API_KEY}&with_genres=878`,
+  fetchBollywoodMovies:`/discover/movie?api_key=${API_KEY}&region=IN&language=hi-IN&with_original_language=hi`,
+  fetchHollywoodMovies:`/discover/movie?api_key=${API_KEY}&region=US&language=en-US&with_original_language=en`,
+  fetchBollywoodComedyMovies:`/discover/movie?api_key=${API_KEY}&with_genres=35&region=IN&language=hi-IN&with_original_language=hi`,
 
   fetchTrendingTV:`/trending/tv/week?api_key=${API_KEY}&language=en-US`,
   fetchDiscoverShows:`discover/tv?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false`,
