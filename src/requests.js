@@ -13,6 +13,18 @@ const requests = {
   fetchThriller:`/discover/movie?api_key=${API_KEY}&with_genres=53`,
   fetchTVMovie:`/discover/movie?api_key=${API_KEY}&with_genres=10770`,
   fetchScienceFiction:`/discover/movie?api_key=${API_KEY}&with_genres=878`,
+
+  fetchTrendingTV:`/trending/tv/week?api_key=${API_KEY}&language=en-US`,
+  fetchDiscoverShows:`discover/tv?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false`,
+  fetchNewRealeasesShows:`/discover/tv?api_key=${API_KEY}&language=en-US&first_air_date_year=2020&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false`,
+  fetchActionShows:`/discover/tv?api_key=${API_KEY}&with_genres=10759`,
+  fetchComedyShows:`/discover/tv?api_key=${API_KEY}&with_genres=35`,
+  fetchRealityShows:`/discover/tv?api_key=${API_KEY}&with_genres=10764`,
+  fetchCrimeShows:`/discover/tv?api_key=${API_KEY}&with_genres=80`,
+  fetchDramaShows:`/discover/tv?api_key=${API_KEY}&with_genres=18`,
+  fetchWesternShows:`/discover/tv?api_key=${API_KEY}&with_genres=37`,
+  fetchWarShows:`/discover/tv?api_key=${API_KEY}&with_genres=10768`,
+  fetchKidsShows:`/discover/tv?api_key=${API_KEY}&with_genres=10762`,
 }
 
 export default requests;

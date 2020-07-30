@@ -1,30 +1,21 @@
 import React from 'react';
 import './App.css';
-import requests from './requests';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
-import Row from './Components/Row';
-import Banner from './Components/Banner';
-import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import TvShows from './Components/TvShows';
 
 import './App.css';
 
 function App() {
   return (
     <div className="container">
-      <Navbar />
-      <Banner />
-      <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} isLarger={true} />
-      <Row title="Popular" fetchUrl={requests.fetchTrending} />
-      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
-      <Row title="Action TV" fetchUrl={requests.fetchActionMovies} />
-      <Row title="Dramas" fetchUrl={requests.fetchDramaMovies} />
-      <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
-      <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-      <Row title="Romance" fetchUrl={requests.fetchRomanceMovies} />
-      <Row title="Thriller Movies" fetchUrl={requests.fetchThriller} />
-      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
-      <Row title="Science Fiction" fetchUrl={requests.fetchScienceFiction} />
-      <Row title="TV Movie" fetchUrl={requests.fetchTVMovie} />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/tvshows' component={TvShows}/>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

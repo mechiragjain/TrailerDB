@@ -7,7 +7,7 @@ const movieTrailer = require( 'movie-trailer' );
 
 const imageBaseUrl = "https://image.tmdb.org/t/p/original/";
 
-function Row({ title, fetchUrl, isLarger=true }){
+function Row({ title, fetchUrl, isLarger=true}){
   const [movies, setMovies]=useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
 
@@ -32,7 +32,7 @@ function Row({ title, fetchUrl, isLarger=true }){
     if(trailerUrl){
       setTrailerUrl('');
     }else{
-      movieTrailer(title==="Netflix Originals"?(movie?.name):(movie?.title) || "")
+      movieTrailer(movie?.name || movie?.title || "")
       .then(url =>{
         const urlParams = new URLSearchParams(new URL(url).search);
         setTrailerUrl(urlParams.get('v'));
