@@ -5,7 +5,7 @@ import Row from './Row';
 import Banner from './Banner';
 import Navbar from './Navbar';
 
-function Home() {
+function Movies() {
   return (
     <div className="container">
       <Navbar />
@@ -27,4 +27,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Movies;

@@ -12,8 +12,8 @@ function Home() {
       <Banner type={"fetchNetflixOriginals"} />
       <Row title="Popular on Netflix" fetchUrl={requests.fetchTrending} />
       <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}/>
-      <Row title="Exciting TV Shows" fetchUrl={requests.fetchDiscoverShows} />
       <Row title="Bollywood Movies" fetchUrl={requests.fetchBollywoodMovies} />
+      <Row title="Exciting TV Shows" fetchUrl={requests.fetchDiscoverShows} />
       <Row title="Dramas" fetchUrl={requests.fetchDramaMovies} />
       <Row title="Police Detective TV" fetchUrl={requests.fetchCrimeShows} />
       <Row title="Action TV Shows" fetchUrl={requests.fetchActionShows} />

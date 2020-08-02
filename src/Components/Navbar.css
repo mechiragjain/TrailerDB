@@ -28,3 +28,20 @@
   width: 30px;
   object-fit: contain;
 }
+
+.nav-link{
+  margin-left: 20.0vw !important;
+  margin: auto;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-left: 1.0vw;
+}
+
+.link:hover{
+  color: #e5e5e5;
+}

@@ -28,6 +28,13 @@ const requests = {
   fetchWesternShows:`/discover/tv?api_key=${API_KEY}&with_genres=37`,
   fetchWarShows:`/discover/tv?api_key=${API_KEY}&with_genres=10768`,
   fetchKidsShows:`/discover/tv?api_key=${API_KEY}&with_genres=10762`,
+
+  fetchBollywoodUpcoming:`https://api.themoviedb.org/3/discover/movie?api_key=bfa985c269b4982f57c6fbc41f28eac6&language=en-US&region=IN&sort_by=primary_release_date.desc&include_adult=false&include_video=false&page=1&primary_release_year=2020`,
+  fetchUpcomingShowsMonth:`https://api.themoviedb.org/3/discover/tv?api_key=bfa985c269b4982f57c6fbc41f28eac6&language=en-US&sort_by=first_air_date.desc&first_air_date_year=2020&page=9&timezone=America%2FNew_York&include_null_first_air_dates=false
+`,
+  fetchUpcomingMoviesMonth:`https://api.themoviedb.org/3/discover/movie?api_key=bfa985c269b4982f57c6fbc41f28eac6&language=en-US&sort_by=primary_release_date.desc&include_adult=false&include_video=false&page=50&year=2020
+`
+
 }
 
 export default requests;
