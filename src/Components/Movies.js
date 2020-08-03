@@ -10,7 +10,6 @@ function Movies() {
     <div className="container">
       <Navbar />
       <Banner />
-      <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}/>
       <Row title="Popular" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
       <Row title="Action" fetchUrl={requests.fetchActionMovies} />
