@@ -2,7 +2,6 @@ import React,{useState, useEffect} from 'react';
 
 import './Navbar.css';
 import Logo from './../Images/logo.png';
-import Avatar from './../Images/avatar.png';
 
 function NavBar(){
 
@@ -24,7 +23,6 @@ function NavBar(){
   return(
     <div className={`navbar ${show && "nav_black"}`}>
     <img className="logo" src={Logo} alt="logo"/>
-    <img className="avatar" src={Avatar} alt="Avatar"/>
     <div className="nav-link">
     <a className="link" href="/">Home</a>
     <a className="link" href="/movies">Movies</a>

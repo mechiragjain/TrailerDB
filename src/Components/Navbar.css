@@ -22,12 +22,12 @@
   object-fit: contain;
 }
 
-.avatar{
+/* .avatar{
   position: fixed;
   right: 20px;
   width: 30px;
   object-fit: contain;
-}
+} */
 
 .nav-link{
   margin-left: 20.0vw !important;
