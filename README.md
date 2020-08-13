@@ -4,8 +4,8 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://chiragjain.co.in)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)]
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)]
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)]
+![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
 
 This is a Netflix Clone for watching Trailers of Latest Movies and TV Shows. It is developed using React.js and TMDb API. Watch Trailers of Bollywood, Hollywood Movies, Netflix Originals Shows, TV Shows and many more.
 
