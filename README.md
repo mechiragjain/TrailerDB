@@ -3,7 +3,7 @@
 ![TrailerDB](https://res.cloudinary.com/chiragjain/image/upload/v1597338444/freesnippingtool.com_capture_20200813223428_riwxri.png)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://chiragjain.co.in)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)]
+![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
 
